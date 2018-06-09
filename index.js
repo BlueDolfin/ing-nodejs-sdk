@@ -6,7 +6,7 @@ function helloDeveloper(){
         'This is a SDK to connect to ING Bank with NodeJS\n' +
         'First version will be available in Juli 2018\n' +
         '\n' +
-        'Please check regually for updates\n\n' +
+        'Please check regularly for updates\n\n' +
         '******************************************************\n\n'
     );
 }
