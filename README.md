@@ -1,9 +1,8 @@
 # ing-nodejs-sdk
-SDK to connect to ING Bank with NodeJS
-First version will be available in Juli 2018
+The SDK to connect to ING Bank with Node.js.
+A first version will be publicly available on 14th September 2019
 
-
-ING Node.js SDK is designed to allow you to access ING APIs, signed in an easy to use fashion to works with your existing Node.js application with minimal effort.
+ING Node.js SDK is designed to allow you to access PSD2 and Non PSD2 ING APIs with your existing Node.js application with minimal effort. The SDK will take care of calculating the digest, generating the date, signing the request and determing the headers as well as making the actual request. We plan te have a version for production and a version to integrate with the test cases in the sandbox environment. Please read about the sandbox in the getting started of the ING developer portal. https://developer.ing.com/openbanking/get-started
 
 ## Installation
 
@@ -28,7 +27,7 @@ You can find the [full API documentation for this module with our other docs on 
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Blue Dolfin Business Solutions BV
+Copyright (c) 2019 Blue Dolfin Business Solutions BV
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
